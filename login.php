@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
     header('Location: index.php');
     exit;
   } else {
-    echo 'Invalid username or password';
+    $alert = 'Invalid username or password';
   }
 }
 ?>
@@ -118,6 +118,7 @@ if (isset($_POST['submit'])) {
                     </button>
                   </div>
                 </form>
+                <p style="text-align: center;color: red; font-style:italic"><?php echo $alert ?></p>
 
               </div>
             </div>

@@ -1,3 +1,8 @@
+<?php
+session_start();
+$link = isset($_SESSION['login']) ? 'dashboard/index.php' : 'login.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -188,7 +193,7 @@
 
         <div class="right-section">
             <div class="system-name">
-                <a href="login.php">Masuk</a>
+                <a href=<?= $link ?>>Masuk</a>
             </div>
         </div>
     </nav>
@@ -199,7 +204,7 @@
                 <h1>Si tumpol</h1>
                 <p style="line-height: 1.5; font-weight:bold">Arsip Sekretariat Umum Kepolisian Daerah Jawa Tengah</p>
                 <p style="line-height: 1.5;">Sistem pendataan & temu balik arsip dinamis inaktif Sekretariat Umum Kepolisian Daerah Jawa Tengah oleh mahasiswa D4 Informasi dan Hubungan Masyarakat Universitas Diponegoro.</p>
-                <a href="login.php" class="btn">Masuk Sekarang</a>
+                <a href="<?= $link ?>" class="btn">Masuk Sekarang</a>
             </div>
 
             <div class="content-wrapper">
