@@ -31,7 +31,7 @@
 
 ## Requirement
 * XAMPP 5.6.40 / PHP 5.6.40
-* MySQL 5.0.11
+* MySQL
 
 ## Instalasi
 *  Download atau clone project ini

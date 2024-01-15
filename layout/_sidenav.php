@@ -2,7 +2,7 @@
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
             <a href="index.php">
-                <img src="../assets/img/logo_demak.png" alt="logo" width="30px"> ARSIP SETDA DEMAK
+                <img src="../assets/img/LOGO.png" alt="logo" width="30px"> ARSIP SETUM POLDA
             </a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
